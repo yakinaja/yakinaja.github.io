@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+}
+
+/* start welcome-section */
+.welcome-section {
+
+    width: 100%;
+    height:625px;
+    background-image: url('https://user-images.githubusercontent.com/22835630/98499748-07ad8200-227d-11eb-9277-5b99b6a8a23c.jpg');
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    
+}
+
+.welcome-section-info {
+    
+    height: 400px;
+    background-color: #fff;
+    margin: 7rem 0 0 6rem ;
+    position: absolute;
+}
+.welcome-section-info h1 {
+    font-size: 2rem;
+    margin-top: 3rem;
+    text-align: center;
+   font-family: 'Roboto';
+   font-weight: 400;
+}
+
+.welcome-section-info ul {
+    margin-top: 3rem;
+}
+.welcome-section-info ul li {
+    list-style: none;
+    font-weight: 400;
+    font-family: 'Roboto';
+    margin-left: 0;
+    font-size: 1rem;
+    line-height: 2.3rem;
+    color:#6F6F6F;
+
+}
+
+/* end welcome-section */
+
+/* start description */
+.description {
+    width: 100%;
+    height: 375px;
+    background-color: #fff;
+    margin: 7rem 0;
+}
+
+.description  p, span {
+    font-family: 'Roboto';
+    text-align: justify;
+    font-weight: 300;
+    line-height: 1.7rem;
+    margin-top: 5rem;
+    font-size: 1rem;
+    
+    
+}
+.description span {
+    color: #FF214F;
+    font-size: .8rem;
+    font-weight: 400;
+}
+
+/* end description */
+
+/*  start projects */
+.projects {
+    width: 100%;
+    height: 600px;
+    background-color: #fff;
+}
+/* end projects */
+
+/* start quote */
+.quote {
+    width: 100%;
+    height: 250px;
+    background-color: #fff;
+}
+
+.quote h1 {
+    font-family: 'Montserrat';
+    font-weight: 300;
+    font-size: 2rem;
+    color: #424242;
+    line-height: 2.8rem;
+}
+
+.quote h5 {
+    font-size: .8rem;
+    color: #6F6F6F;
+    font-family: 'Roboto';
+    font-weight: 300;
+    
+}
+/* end quote */
+
+/* start profile link */
+.profiles {
+    
+    width: 100%;
+    height: 300px;
+    background-color: #303841;
+}
+
+.profiles h2 {
+    font-family: "Raleway";
+    font-weight: 700;
+    color: rgb(241, 241, 241);
+}
+
+.profiles i {
+    color: rgb(241, 241, 241) ;
+    font-size: 3.5rem;
+}
+
+.profiles a {
+    color:  rgb(241, 241, 241) ;
+}
+/* end profile link */
+
+/* start footer */
+footer {
+    width: 100%;
+    height: 50px;
+    background-color: #303841;
+}
+
+footer p {
+    font-weight: "Montserrat";
+    font-weight: 300;
+    font-size: 1rem;
+    color: #fff;
+}
+/* end footer */
